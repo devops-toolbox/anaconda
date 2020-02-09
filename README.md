@@ -8,10 +8,10 @@ anaconda
 Ansible galaxy:
 ---------------
 
-[https://galaxy.ansible.com/devops-toolbox.anaconda](https://galaxy.ansible.com/devops-toolbox.anaconda)
+[https://galaxy.ansible.com/devopstoolbox.anaconda](https://galaxy.ansible.com/devopstoolbox.anaconda)
 
 ```bash
-ansible-galaxy install devops-toolbox.anaconda
+ansible-galaxy install devopstoolbox.anaconda
 ```
 
 Requirements
@@ -46,7 +46,7 @@ Example Playbook
   tasks:
     - name: anaconda is configured
       import_role:
-        name: devops-toolbox.anaconda
+        name: devopstoolbox.anaconda
       vars:
         anaconda_url: "https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh"
         anaconda_path: "~/anaconda3"
@@ -62,4 +62,4 @@ MIT
 Author Information
 ------------------
 
-- [Mihai Criveti](https://www.linkedin.com/in/devops-toolbox.)
+- [Mihai Criveti](https://www.linkedin.com/in/devopstoolbox.)
